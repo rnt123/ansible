@@ -1,5 +1,5 @@
 ---
-- name: del user
+- name: del user test
   hosts: all
   become: yes
   tasks:
