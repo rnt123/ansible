@@ -7,4 +7,3 @@
     password: $6$rounds=656000$57RUFMkVPM0kP2LG$iVVeyi7/cVOupsDSv2fn07FDzzkELdmhCJ4nKx36rOZKCIL9mlALPFT04RbuDgVDRK/DvB.ts5ITv5qxOvND/0
   tasks:
      - user: name=ansible2 password={{password}} state=present
-~
