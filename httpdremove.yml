@@ -1,0 +1,9 @@
+---
+- name: remove httpd
+  become: yes
+  hosts: all
+  tasks:
+  - name: remove the Apache package
+    yum:
+      name:  httpd
+      state: absent
