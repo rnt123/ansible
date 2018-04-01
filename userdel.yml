@@ -1,0 +1,7 @@
+---
+- name: del user
+  hosts: all
+  become: yes
+  tasks:
+   - user: name=ansible2  state=absent
+
