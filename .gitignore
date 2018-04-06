@@ -1,3 +1,4 @@
 #localy ignore .bak 
 *.bak
-
+#local ignore tmp dir
+tmp/*
